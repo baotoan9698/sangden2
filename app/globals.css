@@ -33,6 +33,16 @@ body{font-family:"Google Sans",Arial,sans-serif!important}
 .case-quote blockquote{font-size:clamp(18px,1.8vw,27px);line-height:1.4}
 .quote-meta b{color:rgba(16,24,32,.42)}
 .quote-mark{color:rgba(16,24,32,.045)}
+.quote-meta b{visibility:hidden}
+.hero{padding-top:0!important}
+.hero h1{position:absolute!important;top:72px!important;left:50%!important;transform:translateX(-50%);z-index:4;color:#fff;width:max-content!important;max-width:94%!important;margin:0!important;text-shadow:0 2px 22px rgba(0,0,0,.16)}
+.hero h1{-webkit-text-stroke:4px rgba(0,0,0,.92);paint-order:stroke fill}
+.hero h1 span{margin-left:.72em!important}
+.hero-copy{position:absolute!important;top:auto!important;bottom:78px!important;left:28px!important;right:auto!important;z-index:4;width:420px!important;color:#fff;font-size:16px!important;line-height:1.55!important;text-shadow:0 1px 12px rgba(0,0,0,.35)}
+.hero-visual:after{background:linear-gradient(180deg,rgba(5,15,24,.48) 0%,rgba(5,15,24,.05) 52%,rgba(5,15,24,.68) 100%)!important}
+.hero-visual{border-radius:28px!important}
+.nav{border-bottom:none!important}
+@media(max-width:800px){.hero{padding-top:0!important}.hero h1{top:48px!important;left:18px!important;transform:none;width:calc(100% - 36px)!important;max-width:none!important;font-size:17vw!important;line-height:.9!important;-webkit-text-stroke:2px rgba(0,0,0,.92)}.hero h1 span{margin-left:.35em!important}.hero-copy{left:18px!important;bottom:150px!important;width:calc(100% - 36px)!important;font-size:14px!important;line-height:1.5!important}}
 @media(max-width:800px){.case-quote blockquote{font-size:18px;line-height:1.45}}
 .closing-statement{text-align:center;padding:110px 18px 120px}.closing-statement h2{max-width:1180px;margin:0 auto;font-size:clamp(25px,3.25vw,48px);font-weight:400;line-height:1.04;letter-spacing:-.035em}.closing-statement h2 span{display:block;color:#aaa;margin-top:3px}.closing-statement strong{display:block;max-width:920px;margin:42px auto 0;font-size:20px;line-height:1.4;font-weight:500}.closing-statement p{max-width:760px;margin:25px auto 0;font-size:14px;line-height:1.65;color:#686868}
 @media(max-width:800px){.closing-statement{padding:80px 10px 90px}.closing-statement h2{font-size:27px}.closing-statement strong{font-size:17px;margin-top:32px}.closing-statement p{font-size:14px}}

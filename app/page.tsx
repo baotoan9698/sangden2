@@ -48,7 +48,7 @@ export default function Home() {
       </section>
 
       <aside className="case-quote shell">
-        <div className="quote-meta"><span>Ví dụ điển hình</span><b>01 / CASE STUDY</b></div>
+        <div className="quote-meta"><span>Ví dụ điển hình</span><b aria-hidden="true">&nbsp;</b></div>
         <blockquote>Một doanh nghiệp xuất khẩu cà phê có hàng thật trong kho, đơn hàng thật trên tay — nhưng ngân hàng không cho vay vì không nhận hàng tồn kho là tài sản đảm bảo. Tiền bị chôn 3–6 tháng mỗi vụ. Muốn mở rộng sang Dubai nhưng không biết bắt đầu từ đâu. Thu tiền từ đối tác nước ngoài mất 3–5% và 30–45 ngày chờ đợi.</blockquote>
         <div className="quote-mark" aria-hidden="true">“</div>
       </aside>
@@ -89,4 +89,3 @@ export default function Home() {
     </main>
   );
 }
-
