@@ -10,6 +10,15 @@ const steps = [
   ["03", "Vào chuỗi — làm thật", "Dự án thật · Q1/2027", "Lập pháp nhân, ký hợp đồng khung và chuẩn bị giao dịch thật đầu tiên cùng các bên trong chuỗi."],
 ];
 
+const openWindowItems = [
+  ["01", "Nghị quyết 68", "Xác lập kinh tế tư nhân là động lực chủ lực, mở đường cho các cơ chế hỗ trợ thực chất."],
+  ["02", "Nghị quyết 222 · VIFC", "Không gian pháp lý thử nghiệm tại HCM và Đà Nẵng cho sản phẩm tài chính thế hệ mới."],
+  ["03", "QĐ04 · 7/2026", "Đà Nẵng phụ trách tài sản mã hóa, HCM phụ trách tài chính hàng hóa và thị trường vốn."],
+  ["04", "CEPA Việt Nam – UAE", "Xóa 99% dòng thuế, mở hành lang trực tiếp vào Trung Đông và châu Phi."],
+  ["05", "Luật Giao dịch Hàng hóa Phái sinh", "Lần đầu tiên Việt Nam có khung pháp lý cho thị trường hàng hóa tài chính."],
+  ["06", "Nghị quyết 05 · Nghị quyết 259", "Hoàn thiện nền tảng chính sách cho giai đoạn chuyển đổi."],
+];
+
 export default function Home() {
   return (
     <main>
@@ -57,6 +66,23 @@ export default function Home() {
         <h2>ĐÂY KHÔNG PHẢI CÂU CHUYỆN CỦA MỘT DOANH NGHIỆP.<span>ĐÂY LÀ BÀI TOÁN CHUNG CỦA HÀNG TRĂM NGHÌN SME VIỆT.</span></h2>
         <strong>NÚT THẮT KHÔNG PHẢI THIẾU VỐN, KHÔNG PHẢI THIẾU NHU CẦU — MÀ LÀ THIẾU KHẢ NĂNG CHỨNG MINH.</strong>
         <p>Ngân hàng không cho vay vì không verify được tài sản. Nhà đầu tư nước ngoài không định giá được vì không audit được. Đối tác quốc tế không tin vì không có chuẩn chung.</p>
+      </section>
+
+      <section className="open-window shell">
+        <div className="open-window-intro">
+          <h2>CỬA SỔ<br />ĐANG MỞ</h2>
+          <div>
+            <h3>LẦN ĐẦU TIÊN, VIỆT NAM CÓ ĐỦ NỀN TẢNG ĐỂ GIẢI BÀI TOÁN NÀY</h3>
+            <p>Tất cả đang hội tụ cùng lúc — tạo ra một khoảng thời gian hiếm gặp để doanh nghiệp đi trước.</p>
+          </div>
+        </div>
+        <div className="open-window-grid">
+          {openWindowItems.map(([, title, description]) => (
+            <article key={title}>
+              <div><h3>{title}</h3><p>{description}</p></div>
+            </article>
+          ))}
+        </div>
       </section>
 
       <section className="solution shell" id="solution">
