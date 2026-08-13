@@ -133,15 +133,15 @@ export default function Home() {
         <div className="sector-cards">
           <article>
             <div className="sector-image"><img src="/feature-house.jpg" alt="Hàng hóa xuất khẩu Việt Nam" /></div>
-            <div className="sector-content"><h3>HÀNG HÓA XUẤT KHẨU</h3><p>Cà phê, nông sản, điều, tiêu. Việt Nam xuất ~70 tỷ USD/năm nhưng vốn bị chôn trong kho 3–6 tháng. L/C tốn 3–5% và 30–45 ngày. Hàng tồn kho thật — chưa được tính là tài sản đảm bảo.</p><strong>🎯 Giải pháp: Chứng chỉ lưu kho điện tử cho phép dùng chính lô hàng trong kho làm cơ sở huy động vốn ngắn hạn theo vụ mùa. Đầu bên kia: đối tác tại Abu Dhabi — Trung Đông và châu Phi.</strong></div>
+            <div className="sector-content"><h3>HÀNG HÓA XUẤT KHẨU</h3><p>Cà phê, nông sản, điều, tiêu. Việt Nam xuất ~70 tỷ USD/năm nhưng vốn bị chôn trong kho 3–6 tháng. L/C tốn 3–5% và 30–45 ngày. Hàng tồn kho thật — chưa được tính là tài sản đảm bảo.</p><strong>Giải pháp: Chứng chỉ lưu kho điện tử cho phép dùng chính lô hàng trong kho làm cơ sở huy động vốn ngắn hạn theo vụ mùa. Đầu bên kia: đối tác tại Abu Dhabi — Trung Đông và châu Phi.</strong></div>
           </article>
           <article>
             <div className="sector-image"><img src="/feature-house.jpg" alt="Du lịch và y tế quốc tế" /></div>
-            <div className="sector-content"><h3>DU LỊCH &amp; Y TẾ QUỐC TẾ</h3><p>Khách sạn, phòng khám, spa, lữ hành. Khách quốc tế — đặc biệt khách Hàn — là nguồn doanh thu lớn nhưng dòng tiền về chậm và không ổn định.</p><strong>🎯 Giải pháp: Bán trước dịch vụ cho mùa cao điểm bằng voucher có bảo chứng — khách yên tâm, doanh nghiệp nhận dòng tiền trước ba tháng.</strong></div>
+            <div className="sector-content"><h3>DU LỊCH &amp; Y TẾ QUỐC TẾ</h3><p>Khách sạn, phòng khám, spa, lữ hành. Khách quốc tế — đặc biệt khách Hàn — là nguồn doanh thu lớn nhưng dòng tiền về chậm và không ổn định.</p><strong>Giải pháp: Bán trước dịch vụ cho mùa cao điểm bằng voucher có bảo chứng — khách yên tâm, doanh nghiệp nhận dòng tiền trước ba tháng.</strong></div>
           </article>
           <article>
             <div className="sector-image"><img src="/feature-house.jpg" alt="Bất động sản du lịch Đà Nẵng" /></div>
-            <div className="sector-content"><h3>BẤT ĐỘNG SẢN DU LỊCH</h3><p>Tập trung tại Đà Nẵng — nơi QĐ 04 mở cơ chế mã hóa tài sản. Cơ hội kết nối với dòng vốn quốc tế đang tìm hành lang mới tại Đông Nam Á.</p><strong>🎯 Giai đoạn này: Sáng Đèn xây chuẩn và kết nối với dòng vốn quốc tế — tạo nền cho giai đoạn tiếp theo.</strong></div>
+            <div className="sector-content"><h3>BẤT ĐỘNG SẢN DU LỊCH</h3><p>Tập trung tại Đà Nẵng — nơi QĐ 04 mở cơ chế mã hóa tài sản. Cơ hội kết nối với dòng vốn quốc tế đang tìm hành lang mới tại Đông Nam Á.</p><strong>Giai đoạn này: Sáng Đèn xây chuẩn và kết nối với dòng vốn quốc tế — tạo nền cho giai đoạn tiếp theo.</strong></div>
           </article>
         </div>
       </section>
