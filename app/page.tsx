@@ -83,6 +83,9 @@ export default function Home() {
             </article>
           ))}
         </div>
+        <div className="open-window-closing">
+          <p>CỬA SỔ NÀY KHÔNG MỞ MÃI.<span>DOANH NGHIỆP ĐI TRƯỚC LÀ DOANH NGHIỆP ĐƯỢC ĐỊNH VỊ TRƯỚC.</span></p>
+        </div>
       </section>
 
       <section className="solution shell" id="solution">
