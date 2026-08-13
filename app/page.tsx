@@ -25,7 +25,7 @@ export default function Home() {
       <nav className="nav shell" aria-label="Điều hướng chính">
         <a className="brand" href="#home"><span>SÁNG</span> ĐÈN 2026</a>
         <div className="navlinks"><a href="#problem">Bài toán</a><a href="#solution">Giải pháp</a><a href="#journey">Hành trình</a><a href="#fit">Đối tượng</a></div>
-        <a className="pill" href="#register">Đăng ký <span>↗</span></a>
+        <a className="pill" href="#register">Đăng ký</a>
       </nav>
 
       <section className="hero shell" id="home">
@@ -48,10 +48,10 @@ export default function Home() {
 
       <section className="bottleneck-grid shell">
         <div className="bottleneck-list">
-          <article><span>01</span><div><h3>Nghẽn vốn</h3><p>Hàng trong kho, đơn hàng trên tay — ngân hàng vẫn hỏi sổ đỏ. Hàng tồn kho thật chưa được tính là tài sản đảm bảo theo chuẩn truyền thống.</p></div><b>↗</b></article>
-          <article><span>02</span><div><h3>Khó ra thế giới</h3><p>Muốn xuất khẩu nhưng thiếu toàn bộ hệ sinh thái: chuẩn kiểm chứng, đối tác pháp lý, kênh phân phối quốc tế.</p></div><b>↗</b></article>
-          <article><span>03</span><div><h3>Thiếu chuẩn để được tin</h3><p>Đối tác nước ngoài không có cách thẩm định nhanh một SME Việt. Không định danh chuẩn, không minh bạch → không được tin.</p></div><b>↗</b></article>
-          <article><span>04</span><div><h3>Xuyên biên giới chậm và đắt</h3><p>Thanh toán quốc tế qua 3–5 trung gian: phí 3–5%, thời gian 30–45 ngày, rủi ro tỷ giá không kiểm soát được.</p></div><b>↗</b></article>
+          <article><span>01</span><div><h3>Nghẽn vốn</h3><p>Hàng trong kho, đơn hàng trên tay — ngân hàng vẫn hỏi sổ đỏ. Hàng tồn kho thật chưa được tính là tài sản đảm bảo theo chuẩn truyền thống.</p></div></article>
+          <article><span>02</span><div><h3>Khó ra thế giới</h3><p>Muốn xuất khẩu nhưng thiếu toàn bộ hệ sinh thái: chuẩn kiểm chứng, đối tác pháp lý, kênh phân phối quốc tế.</p></div></article>
+          <article><span>03</span><div><h3>Thiếu chuẩn để được tin</h3><p>Đối tác nước ngoài không có cách thẩm định nhanh một SME Việt. Không định danh chuẩn, không minh bạch → không được tin.</p></div></article>
+          <article><span>04</span><div><h3>Xuyên biên giới chậm và đắt</h3><p>Thanh toán quốc tế qua 3–5 trung gian: phí 3–5%, thời gian 30–45 ngày, rủi ro tỷ giá không kiểm soát được.</p></div></article>
         </div>
         <div className="bottleneck-photo"><img src="/feature-house.jpg" alt="Hạ tầng hiện đại cho doanh nghiệp Việt" /></div>
       </section>
@@ -146,7 +146,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="register shell" id="register"><span className="section-tag">07 · Đăng ký</span><h2>BẮT ĐẦU<br />TỪ ĐÂY.</h2><p>Miễn phí. Không yêu cầu kinh nghiệm kỹ thuật.<br />Chỉ cần có hàng thật hoặc dịch vụ thật.</p><div><a className="pill dark" href="mailto:partner@goealliance.org?subject=Đăng ký Sáng Đèn 2026">Đăng ký tham gia <span>↗</span></a><a href="mailto:partner@goealliance.org">Liên hệ tư vấn</a></div></section>
+      <section className="register shell" id="register"><span className="section-tag">07 · Đăng ký</span><h2>BẮT ĐẦU<br />TỪ ĐÂY.</h2><p>Miễn phí. Không yêu cầu kinh nghiệm kỹ thuật.<br />Chỉ cần có hàng thật hoặc dịch vụ thật.</p><div><a className="pill" href="mailto:partner@goealliance.org?subject=Đăng ký Sáng Đèn 2026">Đăng ký tham gia</a><a href="mailto:partner@goealliance.org">Liên hệ tư vấn</a></div></section>
 
       <footer className="shell"><div className="footer-mark">SÁNG ĐÈN</div><div>GOE Alliance<br />08 Nguyễn Huệ, TP. Hồ Chí Minh</div><div><a href="mailto:partner@goealliance.org">partner@goealliance.org</a><br />© 2026</div></footer>
     </main>
