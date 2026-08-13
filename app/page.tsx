@@ -95,7 +95,7 @@ export default function Home() {
           <p>Chương trình mở cửa vốn và thị trường toàn cầu cho doanh nghiệp Việt — bằng cách xây hạ tầng giao dịch trong nền kinh tế on-chain, có kiểm soát trong khuôn khổ pháp lý của Việt Nam.</p>
         </header>
         <div className="solution-body">
-          <div className="solution-list">{solutions.map(([n,t,d])=><article key={t}><span>{n}</span><div><h3>{t}</h3><p>{d}</p></div></article>)}</div>
+          <div className="solution-list">{solutions.map(([,t,d])=><article key={t}><span aria-hidden="true"></span><div><h3>{t}</h3><p>{d}</p></div></article>)}</div>
           <aside className="solution-card">
             <span>CHƯƠNG TRÌNH KHÔNG DẠY LÝ THUYẾT</span>
             <p>Chương trình làm một việc duy nhất:</p>
@@ -105,22 +105,45 @@ export default function Home() {
       </section>
 
       <section className="journey shell" id="journey">
-        <div className="journey-head"><span className="section-tag">04 · Hành trình tham gia</span><h2>BA BƯỚC — TỪ TÌM HIỂU ĐẾN GIAO DỊCH THẬT.</h2></div>
-        <div className="step-list">{steps.map(([n,t,label,d])=><article key={t}><div className="step-num">{n}</div><div><small>{label}</small><h3>{t}</h3><p>{d}</p></div></article>)}</div>
-      </section>
-
-      <section className="sectors shell">
-        <div className="sectors-title"><span className="section-tag">05 · Đối tượng ưu tiên</span><h2>BA NGÀNH TRONG KHÓA ĐẦU.</h2><p>Có dòng tiền xuyên biên giới thật, quy mô đủ lớn và đang chịu ma sát tài chính nặng nhất.</p></div>
-        <div className="sector-cards">
-          <article><b>01</b><h3>Nông sản xuất khẩu</h3><p>Cà phê, điều, tiêu — vốn bị chôn trong kho từ 3–6 tháng mỗi mùa vụ.</p></article>
-          <article><b>02</b><h3>Dịch vụ quốc tế</h3><p>Khách sạn, phòng khám, spa, lữ hành có doanh thu xuyên biên giới.</p></article>
-          <article><b>03</b><h3>Tài sản tại Đà Nẵng</h3><p>Kết nối dòng vốn quốc tế trong hành lang mới của Đông Nam Á.</p></article>
+        <header className="journey-head"><span className="section-tag">Hành trình tham gia</span><h2>BA BƯỚC — TỪ TÌM HIỂU ĐẾN GIAO DỊCH THẬT</h2></header>
+        <div className="journey-layout">
+          <div className="journey-steps">
+            <details>
+              <summary><span>01</span><div><small>BƯỚC 1 · MIỄN PHÍ · 2,5 GIỜ</small><h3>BUỔI ĐỊNH HƯỚNG</h3></div><b>＋</b></summary>
+              <div className="journey-content"><p>Hiểu vì sao doanh nghiệp mình đang nghẽn, cơ chế mới cho phép làm gì, và con đường cụ thể ra sao. Kết thúc buổi: hoàn tất đăng ký định danh doanh nghiệp. Chỉ mất một buổi để biết chương trình có phù hợp với mình không.</p></div>
+            </details>
+            <details open>
+              <summary><span>02</span><div><small>BƯỚC 2 · MIỄN PHÍ · 4 BUỔI · CHỌN LỌC</small><h3>KHÓA CHUẨN HÓA</h3></div><b>＋</b></summary>
+              <div className="journey-content"><p>Mỗi buổi mang về một thứ của chính doanh nghiệp mình — không phải bài giảng:</p>
+                <div className="journey-table"><strong>BUỔI</strong><strong>RA VỀ VỚI</strong><span>Buổi 1</span><p>Bản đồ chuỗi ngành — xác định vị trí doanh nghiệp và đối tác thật trong chuỗi</p><span>Buổi 2</span><p>Một hồ sơ nghiệp vụ thật đã được số hóa và chuẩn hóa trên hệ thống</p><span>Buổi 3</span><p>Hồ sơ đủ điều kiện tham gia cơ chế thử nghiệm</p><span>Buổi 4</span><p>Vai chính thức trong chuỗi và ý định hợp tác được xác lập</p></div>
+                <em>Người đứng lớp là doanh nghiệp đã làm được — không phải giảng viên lý thuyết.</em>
+              </div>
+            </details>
+            <details>
+              <summary><span>03</span><div><small>BƯỚC 3 · DỰ ÁN THẬT · Q1/2027</small><h3>VÀO CHUỖI — LÀM THẬT</h3></div><b>＋</b></summary>
+              <div className="journey-content"><p>Cùng các bên trong chuỗi lập pháp nhân, ký hợp đồng khung, chuẩn bị giao dịch thật đầu tiên. Chuỗi đầu tiên sẵn sàng vận hành <strong>15/12/2026</strong>, giao dịch thật chạy từ Quý I/2027.</p></div>
+            </details>
+          </div>
+          <div className="journey-photo"><img src="/feature-house.jpg" alt="Hành trình đưa doanh nghiệp vào giao dịch thật" /></div>
         </div>
       </section>
 
-      <section className="fit shell" id="fit">
-        <div><span className="section-tag light">06 · Ai nên tham gia</span><h2>CHỈ 50 DOANH NGHIỆP TRONG KHÓA ĐẦU.</h2><p>Mỗi chỗ dành cho một doanh nghiệp thực sự đi được đến cuối.</p></div>
-        <ul><li>Có hàng thật hoặc dịch vụ thật đang bán</li><li>Đang xuất khẩu hoặc muốn xuất khẩu trong 12 tháng</li><li>Cần vốn lưu động theo mùa vụ hoặc đơn hàng</li><li>Phục vụ khách quốc tế</li><li>Sẵn sàng cử một người đi trọn khóa</li></ul>
+      <section className="sectors shell">
+        <header className="sectors-title"><span className="section-tag light">Đối tượng ưu tiên</span><h2>BA NGÀNH TRONG KHÓA ĐẦU</h2><p>Được chọn vì có dòng tiền xuyên biên giới thật, volume đủ lớn để hạ tầng mới có nghĩa, và đang chịu ma sát tài chính nặng nhất.</p></header>
+        <div className="sector-cards">
+          <article>
+            <div className="sector-image"><img src="/feature-house.jpg" alt="Hàng hóa xuất khẩu Việt Nam" /></div>
+            <div className="sector-content"><h3>HÀNG HÓA XUẤT KHẨU</h3><p>Cà phê, nông sản, điều, tiêu. Việt Nam xuất ~70 tỷ USD/năm nhưng vốn bị chôn trong kho 3–6 tháng. L/C tốn 3–5% và 30–45 ngày. Hàng tồn kho thật — chưa được tính là tài sản đảm bảo.</p><strong>🎯 Giải pháp: Chứng chỉ lưu kho điện tử cho phép dùng chính lô hàng trong kho làm cơ sở huy động vốn ngắn hạn theo vụ mùa. Đầu bên kia: đối tác tại Abu Dhabi — Trung Đông và châu Phi.</strong></div>
+          </article>
+          <article>
+            <div className="sector-image"><img src="/feature-house.jpg" alt="Du lịch và y tế quốc tế" /></div>
+            <div className="sector-content"><h3>DU LỊCH &amp; Y TẾ QUỐC TẾ</h3><p>Khách sạn, phòng khám, spa, lữ hành. Khách quốc tế — đặc biệt khách Hàn — là nguồn doanh thu lớn nhưng dòng tiền về chậm và không ổn định.</p><strong>🎯 Giải pháp: Bán trước dịch vụ cho mùa cao điểm bằng voucher có bảo chứng — khách yên tâm, doanh nghiệp nhận dòng tiền trước ba tháng.</strong></div>
+          </article>
+          <article>
+            <div className="sector-image"><img src="/feature-house.jpg" alt="Bất động sản du lịch Đà Nẵng" /></div>
+            <div className="sector-content"><h3>BẤT ĐỘNG SẢN DU LỊCH</h3><p>Tập trung tại Đà Nẵng — nơi QĐ 04 mở cơ chế mã hóa tài sản. Cơ hội kết nối với dòng vốn quốc tế đang tìm hành lang mới tại Đông Nam Á.</p><strong>🎯 Giai đoạn này: Sáng Đèn xây chuẩn và kết nối với dòng vốn quốc tế — tạo nền cho giai đoạn tiếp theo.</strong></div>
+          </article>
+        </div>
       </section>
 
       <section className="register shell" id="register"><span className="section-tag">07 · Đăng ký</span><h2>BẮT ĐẦU<br />TỪ ĐÂY.</h2><p>Miễn phí. Không yêu cầu kinh nghiệm kỹ thuật.<br />Chỉ cần có hàng thật hoặc dịch vụ thật.</p><div><a className="pill dark" href="mailto:partner@goealliance.org?subject=Đăng ký Sáng Đèn 2026">Đăng ký tham gia <span>↗</span></a><a href="mailto:partner@goealliance.org">Liên hệ tư vấn</a></div></section>
