@@ -1,7 +1,7 @@
 const solutions = [
-  ["01", "Một định danh chuẩn", "Hồ sơ doanh nghiệp được xác thực, có thể kiểm chứng thay vì một bộ giấy tờ scan qua email."],
-  ["02", "Chứng từ được số hóa", "Kho, hợp đồng và đơn hàng được chuẩn hóa để bên cấp vốn đọc và ra quyết định nhanh."],
-  ["03", "Một vai trong chuỗi", "Người bán, kho vận, ngân hàng và người mua cùng vận hành trong một chuỗi được điều phối."],
+  ["1", "Một định danh chuẩn", "Doanh nghiệp có hồ sơ được xác thực trong hệ thống. Đối tác nước ngoài hỏi ‘công ty này là ai’ thì có câu trả lời kiểm chứng được — thay vì một bộ giấy tờ scan gửi qua email."],
+  ["2", "Chứng từ số hóa theo chuẩn", "Chứng chỉ lưu kho, hợp đồng, đơn hàng, voucher dịch vụ — được chuẩn hóa để bên cấp vốn đọc và ra quyết định ngay. Đây là chỗ hàng trong kho biến thành thứ đi vay được."],
+  ["3", "Một vai trong chuỗi giá trị", "Doanh nghiệp không đi một mình. Người bán, kho vận, logistics, ngân hàng, người mua nước ngoài — mỗi bên một vai trong cùng một chuỗi có người điều phối và cơ quan giám sát."],
 ];
 
 const steps = [
@@ -89,8 +89,19 @@ export default function Home() {
       </section>
 
       <section className="solution shell" id="solution">
-        <div className="solution-intro"><span className="section-tag light">03 · Giải pháp</span><h2>SÁNG ĐÈN<br />LÀ GÌ?</h2><p>Chương trình không dạy lý thuyết. Chúng tôi biến doanh nghiệp thành một hồ sơ mà ngân hàng, quỹ và đối tác nước ngoài đọc được, tin được — rồi đưa hồ sơ đó vào giao dịch thật.</p></div>
-        <div className="solution-list">{solutions.map(([n,t,d])=><article key={t}><span>{n}</span><h3>{t}</h3><p>{d}</p></article>)}</div>
+        <header className="solution-head">
+          <span className="section-tag light">Giải pháp</span>
+          <h2>SÁNG ĐÈN LÀ GÌ</h2>
+          <p>Chương trình mở cửa vốn và thị trường toàn cầu cho doanh nghiệp Việt — bằng cách xây hạ tầng giao dịch trong nền kinh tế on-chain, có kiểm soát trong khuôn khổ pháp lý của Việt Nam.</p>
+        </header>
+        <div className="solution-body">
+          <div className="solution-list">{solutions.map(([n,t,d])=><article key={t}><span>{n}</span><div><h3>{t}</h3><p>{d}</p></div></article>)}</div>
+          <aside className="solution-card">
+            <span>CHƯƠNG TRÌNH KHÔNG DẠY LÝ THUYẾT</span>
+            <p>Chương trình làm một việc duy nhất:</p>
+            <strong>Biến doanh nghiệp thành một hồ sơ mà ngân hàng, quỹ và đối tác nước ngoài đọc được và tin được — rồi đưa hồ sơ đó vào một chuỗi giao dịch thật.</strong>
+          </aside>
+        </div>
       </section>
 
       <section className="journey shell" id="journey">
