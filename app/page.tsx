@@ -12,11 +12,11 @@ const steps = [
 
 const openWindowItems = [
   ["01", "Nghị quyết 68", "Xác lập kinh tế tư nhân là động lực chủ lực, mở đường cho các cơ chế hỗ trợ thực chất."],
-  ["02", "Nghị quyết 222 · VIFC", "Không gian pháp lý thử nghiệm tại HCM và Đà Nẵng cho sản phẩm tài chính thế hệ mới."],
-  ["03", "QĐ04 · 7/2026", "Đà Nẵng phụ trách tài sản mã hóa, HCM phụ trách tài chính hàng hóa và thị trường vốn."],
+  ["02", "Nghị quyết 222 VIFC", "Không gian pháp lý thử nghiệm tại HCM và Đà Nẵng cho sản phẩm tài chính thế hệ mới."],
+  ["03", "QĐ04 07/2026", "Đà Nẵng phụ trách tài sản mã hóa, HCM phụ trách tài chính hàng hóa và thị trường vốn."],
   ["04", "CEPA Việt Nam – UAE", "Xóa 99% dòng thuế, mở hành lang trực tiếp vào Trung Đông và châu Phi."],
-  ["05", "Luật Giao dịch Hàng hóa Phái sinh", "Lần đầu tiên Việt Nam có khung pháp lý cho thị trường hàng hóa tài chính."],
-  ["06", "Nghị quyết 05 · Nghị quyết 259", "Hoàn thiện nền tảng chính sách cho giai đoạn chuyển đổi."],
+  ["05", "Luật Giao dịch hàng hóa phái sinh ", "Lần đầu tiên Việt Nam có khung pháp lý cho thị trường hàng hóa tài chính."],
+  ["06", "Nghị quyết 05 & Nghị quyết 259", "Hoàn thiện nền tảng chính sách cho giai đoạn chuyển đổi."],
 ];
 
 export default function Home() {
