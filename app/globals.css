@@ -147,3 +147,5 @@ body{font-family:"Arimo",Arial,sans-serif!important}
 
 .pill{justify-content:center;transition:background-color .25s ease,color .25s ease,border-color .25s ease}
 .pill:hover{background:var(--ink);border-color:var(--ink);color:#fff!important}
+.hero-visual>img{filter:none!important}
+.hero-visual:after{background:transparent!important}

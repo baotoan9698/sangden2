@@ -32,11 +32,11 @@ export default function Home() {
         <h1>VỐN MỚI <span>THỊ TRƯỜNG MỚI</span></h1>
         <p className="hero-copy">Chương trình giúp doanh nghiệp có hàng thật và dịch vụ thật mở được vốn ngắn hạn, tiếp cận thị trường — bằng hạ tầng on-chain trong khuôn khổ pháp lý Việt Nam.</p>
         <div className="hero-visual">
-          <img src="/feature-house.jpg" alt="Kiến trúc hiện đại đại diện cho hạ tầng kinh tế mới" />
+          <img src="/hero-global-network.png" alt="Mạng lưới giao dịch toàn cầu kết nối Việt Nam với thị trường quốc tế" />
           <div className="stats">
             <div><strong>96%</strong><span>Doanh nghiệp Việt Nam<br />là khu vực tư nhân</span></div>
-            <div><strong>~70 TỶ</strong><span>USD xuất khẩu hàng hóa mỗi năm — phần lớn vốn bị chôn trong kho 3–6 tháng</span></div>
-            <div><strong>50</strong><span>Chỗ trong khóa đầu tiên<br />Đóng đơn 31/10/2026</span></div>
+            <div><strong>~60% GDP</strong><span>Khu vực doanh nghiệp đóng góp trên 60% GDP</span></div>
+            <div><strong>~ 20% </strong><span>Dư nợ tín dụng cho khu vực Doanh nghiệp vừa và nhỏ ~20% tổng dư nợ nền kinh tế</span></div>
           </div>
         </div>
       </section>
