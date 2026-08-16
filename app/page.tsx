@@ -26,8 +26,7 @@ export default function Home() {
     <main>
       <nav className="nav shell" aria-label="Điều hướng chính">
         <a className="brand" href="#home"><span>SÁNG</span> ĐÈN 2026</a>
-        <div className="navlinks"><a href="#problem">Bài toán</a><a href="#solution">Giải pháp</a><a href="#journey">Hành trình</a><a href="#fit">Đối tượng</a></div>
-        <a className="pill" href="#register">Đăng ký</a>
+        <a className="pill" href="https://forms.gle/Rstkt7FVJPzW4voN7" target="_blank" rel="noopener noreferrer">Đăng ký</a>
       </nav>
 
       <section className="hero shell" id="home">
@@ -141,9 +140,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="register shell" id="register"><span className="section-tag">07 · Đăng ký</span><h2>BẮT ĐẦU<br />TỪ ĐÂY.</h2><p>Miễn phí. Không yêu cầu kinh nghiệm kỹ thuật.<br />Chỉ cần có hàng thật hoặc dịch vụ thật.</p><div><a className="pill" href="mailto:partner@goealliance.org?subject=Đăng ký Sáng Đèn 2026">Đăng ký tham gia</a><a href="mailto:partner@goealliance.org">Liên hệ tư vấn</a></div></section>
+      <section className="register shell" id="register">
+        <span className="register-label">SÁNG ĐÈN · ĐĂNG KÝ SỚM</span>
+        <h2>BẮT ĐẦU <em>TỪ ĐÂY</em></h2>
+        <p>Miễn phí. Không yêu cầu kinh nghiệm kỹ thuật.<br />Chỉ cần có hàng thật hoặc dịch vụ thật.</p>
+        <div className="register-meta">
+          <div><small>MỞ ĐĂNG KÝ</small><strong>18–19/8/2026</strong></div>
+          <div><small>ĐỊA ĐIỂM RA MẮT</small><strong>SURF 2026, ĐÀ NẴNG</strong></div>
+          <div><small>ĐÓNG HỒ SƠ</small><strong>31/10/2026</strong></div>
+        </div>
+        <a className="register-cta" href="https://forms.gle/Rstkt7FVJPzW4voN7" target="_blank" rel="noopener noreferrer">ĐĂNG KÝ THAM GIA</a>
+      </section>
 
-      <footer className="shell"><div className="footer-mark">SÁNG ĐÈN</div><div>GOE Alliance<br />08 Nguyễn Huệ, TP. Hồ Chí Minh</div><div><a href="mailto:partner@goealliance.org">partner@goealliance.org</a><br />© 2026</div></footer>
+      <footer className="shell"><div className="footer-mark"><span>SÁNG</span> ĐÈN 2026</div><div>GOE Alliance<br />08 Nguyễn Huệ, TP. Hồ Chí Minh</div><div><a href="mailto:partner@goealliance.org">partner@goealliance.org</a><br />© 2026</div></footer>
       <ScrollReveal />
     </main>
   );
