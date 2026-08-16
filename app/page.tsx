@@ -44,7 +44,6 @@ export default function Home() {
 
       <section className="statement shell" id="problem">
         <h2>DOANH NGHIỆP VIỆT KHÔNG THIẾU NĂNG LỰC.<em>HỌ ĐANG BỊ MẮC KẸT.</em></h2>
-        <p>Khu vực tư nhân đóng góp 78,2% tổng vốn đăng ký và 74,6% tổng vốn đầu tư. Năng lực có thật — nhưng 4 nút thắt đang giữ họ lại.</p>
       </section>
 
       <section className="bottleneck-grid shell">
