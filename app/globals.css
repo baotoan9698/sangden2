@@ -193,6 +193,6 @@ body{font-family:"Arimo",Arial,sans-serif!important}
 .footer-mark span{color:var(--orange)}
 footer{align-items:start!important}
 .solution-head{max-width:none!important;margin-inline:auto;text-align:center}
-.solution-head h2{font-size:clamp(32px,4.2vw,64px)!important;line-height:1.02!important;white-space:nowrap!important;text-align:center}
+.solution .solution-head h2{width:100%!important;font-size:clamp(28px,3.5vw,52px)!important;line-height:1.04!important;letter-spacing:-.04em!important;white-space:nowrap!important;text-align:center!important}
 .solution-head>p{margin-inline:auto!important;text-align:center}
-@media(max-width:600px){.solution-head h2{font-size:5vw!important;letter-spacing:-.03em!important}}
+@media(max-width:600px){.solution .solution-head h2{font-size:4.65vw!important;letter-spacing:-.035em!important}}
